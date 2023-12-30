@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Пространство Дремати';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Next.js Blog Theme';
+    : 'Звуковые ванны и онлайн медитации с поющими чашами ';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
